@@ -7,7 +7,6 @@
 libraries {
   //merge = true 
   //sonarqube
-   maven {
-        override = false
+   @override maven {
    }
 }
