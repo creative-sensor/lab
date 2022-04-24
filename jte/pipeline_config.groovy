@@ -13,3 +13,8 @@ libraries {
    @override maven {
    }
 }
+
+stages {
+    @override build {}
+    @override deployx {}
+}
