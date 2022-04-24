@@ -6,5 +6,6 @@
 */
 libraries {
   //merge = true 
-  sonarqube
+  //sonarqube
+  maven
 }
