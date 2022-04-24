@@ -6,7 +6,7 @@
 */
 
 jte {
-    permissive_initialization = false
+    permissive_initialization = true
 }
 libraries {
   //sonarqube
