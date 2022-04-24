@@ -4,6 +4,9 @@
     these should be configurations common across 
     all apps governed by this config. 
 */
+jte {
+    reverse_library_resolution = true
+}
 libraries {
   //merge = true 
   //sonarqube
