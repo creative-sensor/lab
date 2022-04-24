@@ -15,3 +15,6 @@ libraries {
    }
 }
 
+template_methods{
+  build
+}
