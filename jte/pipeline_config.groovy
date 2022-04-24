@@ -6,15 +6,12 @@
 */
 
 jte {
-    permissive_initialization = true
+    permissive_initialization = false
 }
 libraries {
   //sonarqube
-   @override maven {
+    maven {
+        @override build {}    
    }
 }
 
-stages {
-    @override build {}
-    @override deployx {}
-}
