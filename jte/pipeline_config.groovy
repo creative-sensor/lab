@@ -7,5 +7,7 @@
 libraries {
   //merge = true 
   //sonarqube
-   maven
+   maven {
+        @override build
+   }
 }
