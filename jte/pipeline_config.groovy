@@ -11,6 +11,7 @@ jte {
 libraries {
   //sonarqube
     maven {
+        @override build{}
    }
 }
 
