@@ -3,7 +3,7 @@ void call(){
   stage("Build"){
     println "JTE: build completed"
     steps {
-        sh("ls -la")
+        sh "ls -la"
     }
   }
 }
