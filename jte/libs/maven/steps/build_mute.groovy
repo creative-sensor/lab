@@ -3,7 +3,7 @@ void call(){
   stage("Build"){
     println "JTE: build completed"
     steps {
-        jte.libraries.maven.unit_test()
+        sh("ls -la")
     }
   }
 }
