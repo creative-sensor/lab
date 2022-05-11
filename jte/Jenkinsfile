@@ -1,20 +1,13 @@
 
-//pipeline {
-//    stages {
-//        stage('GOVERN-BACKED STAGE') {
-//            steps {
-//                unit_test()
-//                build()
-//                //static_code_analysis()
-//                
-//            }
-//        }
-//    }
-//}
-
-stages {
-    unit_test()
-    build()
+pipeline {
+    stages {
+        stage('INIT') {
+            steps {
+                unit_test()
+                build_mute()
+            }
+        }
+    }
 }
-//static_code_analysis()
+
 
