@@ -1,15 +1,15 @@
-
-pipeline {
-    agent any
-    stages {
-        stage('INIT') {
-            steps {
-                //jte.libraries.maven.unit_test()
-                //jte.libraries.rhinos.build_mute()
-                build_mute()
-            }
-        }
-    }
-}
-
+jte.stages.creativ()
+//pipeline {
+//    agent any
+//    stages {
+//        stage('INIT') {
+//            steps {
+//                //jte.libraries.maven.unit_test()
+//                //jte.libraries.rhinos.build_mute()
+//                build_mute()
+//            }
+//        }
+//    }
+//}
+//
 

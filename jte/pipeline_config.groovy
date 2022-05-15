@@ -9,6 +9,9 @@ libraries {
 }
 
 stages {
-    @override INIT
+    creativ(
+        unit_test
+        build_mute
+    )
 }
 
