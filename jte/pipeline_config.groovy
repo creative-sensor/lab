@@ -4,8 +4,7 @@ jte{
 }
 
 libraries {
-    override = true
-    maven
+    @override maven
     //rhinos
 }
 
