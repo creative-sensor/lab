@@ -4,7 +4,7 @@ jte{
 }
 
 libraries {
-    maven
+    //maven
     rhinos
 }
 
