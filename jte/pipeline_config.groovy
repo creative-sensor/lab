@@ -6,3 +6,7 @@ libraries {
     maven
 }
 
+stages {
+    @override INIT
+}
+
