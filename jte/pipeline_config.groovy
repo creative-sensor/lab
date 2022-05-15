@@ -9,9 +9,9 @@ libraries {
 }
 
 stages {
-    creativ(
+    creativ{
         unit_test
         build_mute
-    )
+    }
 }
 
