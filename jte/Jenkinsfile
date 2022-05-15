@@ -1,8 +1,9 @@
 //jte.stages.creativ()
 
-jte.libraries.maven.build_mute()
-jte.libraries.rhinos.build_mute()
-
+stages {
+    jte.libraries.maven.build_mute()
+    jte.libraries.rhinos.build_mute()
+}
 
 //pipeline {
 //    agent any
