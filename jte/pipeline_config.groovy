@@ -5,7 +5,7 @@ jte{
 
 libraries {
     maven
-    //rhinos
+    rhinos
 }
 
 stages {
