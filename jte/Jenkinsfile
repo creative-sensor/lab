@@ -4,8 +4,8 @@ pipeline {
     stages {
         stage('INIT') {
             steps {
-                unit_test()
-                rhinos.build_mute()
+                jte.libraries.maven.unit_test()
+                jte.libraries.rhinos.build_mute()
             }
         }
     }
