@@ -4,17 +4,17 @@ jte.libraries.maven.build_mute()
 jte.libraries.rhinos.build_mute()
 
 
-//pipeline {
-//    agent any
-//    stages {
-//        stage('INIT') {
-//            steps {
-//                //jte.libraries.maven.unit_test()
-//                //jte.libraries.rhinos.build_mute()
-//                build_mute()
-//            }
-//        }
-//    }
-//}
-//
+pipeline {
+    agent any
+    stages {
+        stage('INIT') {
+            steps {
+                //jte.libraries.maven.unit_test()
+                //jte.libraries.rhinos.build_mute()
+                build_mute()
+            }
+        }
+    }
+}
+
 
