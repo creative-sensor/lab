@@ -5,7 +5,7 @@ pipeline {
         stage('INIT') {
             steps {
                 unit_test()
-                jte.libraries.rhinos.build_mute()
+                rhinos.build_mute()
             }
         }
     }
