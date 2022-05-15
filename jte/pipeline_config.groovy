@@ -13,7 +13,6 @@ stages {
     creativ{
         unit_test
         build_mute
-        build_mute
     }
 }
 
