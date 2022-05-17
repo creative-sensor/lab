@@ -11,9 +11,8 @@ libraries {
 
 stages {
     creativ{
-            build_mute
+            maven.build_mute
             unit_test
-
     }
 //    elite {
 //        jte.libraries.rhinos.build_mute
