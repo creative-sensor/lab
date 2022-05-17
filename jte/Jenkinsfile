@@ -1,4 +1,5 @@
 //jte.stages.creativ()
+jte.reverse_library_resolution = True
 jte.libraries.rhinos.build_mute()
 jte.libraries.maven.build_mute()
 jte.libraries.maven.unit_test()
