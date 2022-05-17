@@ -10,8 +10,10 @@ libraries {
     rhinos
 }
 
-steps {
-    @override unit_test
+stages {
+    @override freedom {
+        unit_test
+    }
 }
 //stages {
 //    creativ{
