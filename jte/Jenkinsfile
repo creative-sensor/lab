@@ -1,4 +1,4 @@
-//jte.stages.freedom()
+jte.stages.freedom()
 jte.libraries.rhinos.build_mute()
 jte.libraries.maven.build_mute()
 jte.libraries.maven.unit_test()
