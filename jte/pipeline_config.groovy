@@ -10,6 +10,9 @@ libraries {
     rhinos
 }
 
+steps {
+    @override unit_test
+}
 //stages {
 //    creativ{
 //            maven.build_mute
